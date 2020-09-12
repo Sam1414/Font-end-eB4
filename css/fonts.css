@@ -1,0 +1,104 @@
+
+/*  font-family: Abel  */
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
+
+/*  font-family: Anton  */
+@font-face {
+    font-family: Anton;
+    src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+
+/*  font-family: Josefin  */
+@font-face {
+    font-family: Josefin;
+    src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+/*  font-family: Lexend  */
+@font-face {
+    font-family: Lexend;
+    src: url('../fonts/Lexend_Deca/LexendDeca-Regular.ttf');
+}
+
+/*  font-family: Livvic  */
+@font-face {
+    font-family: Livvic;
+    src: url('../fonts/Livvic/Livvic-Regular.ttf');
+}
+
+/* ------------- Fonts ---------------- */
+
+@font-face {
+  font-family: 'sansation light';
+  src: url('../fonts/Sansation_Light.ttf');
+}
+
+@font-face {
+  font-family: 'sansation light italic';
+  src: url('../fonts/Sansation_Light_Italic.ttf');
+}
+
+@font-face {
+  font-family: 'sansation italic';
+  src: url('../fonts/Sansation_Italic.ttf');
+}
+
+@font-face {
+  font-family: 'sansation regular';
+  src: url('../fonts/Sansation_Regular.ttf');
+}
+
+@font-face {
+  font-family: 'lato light';
+  src: url('../fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'lato light italic';
+  src: url('../fonts/Lato-Light-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'lato regular';
+  src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'finalnew';
+  src: url('../fonts/Finalnew.ttf');
+}
+
+@font-face {
+  font-family: 'codecpro regular';
+  src: url('../fonts/CodecPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'codecpro italic';
+  src: url('../fonts/CodecPro-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'pasifico regular';
+  src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'twilight';
+  src: url('../fonts/twilight New Moon.ttf');
+}
+
+@font-face {
+  font-family: 'daggersquare';
+  src: url('../fonts/DAGGERSQUARE.otf');
+}
+
+@font-face {
+  font-family: 'daggersquare oblique';
+  src: url('../fonts/DAGGERSQUARE OBLIQUE.otf');
+}
+
+/* ------------- Fonts ---------------- */

@@ -4,17 +4,65 @@
 <head>
   <meta charset="utf-8">
   <title>Wave Animations</title>
-  <link rel="stylesheet" href="wave-styles.css">
+  <link rel="stylesheet" href="./css/wave-styles.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/aos.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
   <div class="body">
+    <canvas id="canvas"></canvas>
+    
+    <!-- Navigation -->
+
+    <nav class="nav">
+      <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="#" class="text-gray">Water Waves</a>
+        </div>
+        <div class="toggle-collapse">
+          <div class="toggle-icons">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div>
+          <ul class="nav-items">
+            <li class="nav-link">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Category</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Archive</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Pages</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social text-gray">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navigation -->
+
     <div class="canvasContainer">
-      <h1>Water</h1>
-      <canvas id="canvas"></canvas>
+      <h1>Water Waves</h1>
     </div>
   </div>
+  <script src="./js/Jquery3.4.1.min.js"></script>
+  <script src="./js/main.js"></script>
   <script src="waves.js"></script>
 </body>
 

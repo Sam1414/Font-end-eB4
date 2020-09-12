@@ -2,18 +2,10 @@ var canvas = document.querySelector('canvas');
 console.log(canvas);
 c = canvas.getContext('2d');
 
-canvas.width = innerWidth;
-canvas.height = innerHeight;
-
-console.log('height: ', innerHeight);
-console.log('width: ', innerWidth);
-console.log('height / width: ', innerHeight / innerWidth);
-
 var wave = {
-    y: canvas.height / 2,
     amplitude: 50,
     length: 2200,
-    frequency: 0.15
+    frequency: 0.16
 };
 var time = 0;
 
@@ -43,15 +35,22 @@ function fill_line(x, y) {
     c.beginPath();
     c.moveTo(x, y);
     c.lineTo(x, canvas.height);
-    c.strokeStyle = 'rgb(0, 0, 100)';
+    c.strokeStyle = 'rgb(95, 14, 5)';
     c.stroke();
+    // document.body.style.background = 'url(' + c.toDataURL() + ')';
 }
 
 function dynamic_sine_wave() {
 
-    var omega = 2 * Math.PI * wave.frequency;
-    var k = (2 * Math.PI) / wave.length;
+    canvas.width = innerWidth;
+    canvas.height = innerHeight;
     var hw_ratio = canvas.height / canvas.width;
+    // console.log('height: ', innerHeight);
+    // console.log('width: ', innerWidth);
+    // console.log('height / width: ', hw_ratio);
+    // console.log('resultant wavelength: ', Math.abs(wave.length - hw_ratio * 1000));
+    var omega = 2 * Math.PI * wave.frequency;
+    var k = (2 * Math.PI) / Math.abs(wave.length - hw_ratio * 1000);
 
     c.beginPath();
     c.moveTo(0, canvas.height);
